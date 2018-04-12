@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Victor&#39;s tech(?) blog</title>
+    <link>https://example.org/</link>
+    <description>Recent content on Victor&#39;s tech(?) blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Mar 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Spin Locks</title>
+      <link>https://example.org/post/spin-locks/</link>
+      <pubDate>Thu, 02 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/post/spin-locks/</guid>
+      <description>Interrupts, Spin Locks and Preemption interrupts  Process context vs. interrupt context
+ system calls run in process context- can sleep Interrupt handlers run in interrupt context - cannot sleep Reason: when in interrupt context, there is no notion of the current process, so it does not save much info, so it is difficult to come back if gets put to the wait queue and switched to some other process corollary: if you are in interrupt context, need to get out as quickly as possible  Interrupt handlers</description>
+    </item>
+    
+    <item>
+      <title>Redis Intro</title>
+      <link>https://example.org/post/redis_ch1/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/post/redis_ch1/</guid>
+      <description>Redis Chapter 1 Intro Features  like Memcached but supports the writing of its data on disk automatically in two different ways can store data in four structures in addition to plain string keys as Memcached does. Supports in-memory persistent storage on disk, replication to scale read performance, and client-side sharding to scale write performance.  Sharding is a method by which you partition your data into different pieces. In this case, you partition your data based on IDs embedded in the keys, based on the hash of keys, or some combination of the two.</description>
+    </item>
+    
+    <item>
+      <title>Database Implementation Lecture3 Notes</title>
+      <link>https://example.org/post/dbl3/</link>
+      <pubDate>Sun, 04 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/post/dbl3/</guid>
+      <description>Lecture 3 parity disk: - def of parity bit - detect bit flip, number of bits that are corrupted - eg. 4 data blocks and a parity block
+B1 B2 B3 B4 P, each on different disks D1 D2 D3 D4 D5 - how to calculate the parity block? - P = B1 XOR B2 XOR B3 XOR B4 - Read: - if B2 becomes unavailable: - read(B2) becomes read(B1)(B2)(B3)(P) - B2 = P XOR B1 XOR B3 XOR B4 - read factored by 4 since now to read B2 has to read 4 blocks instead of read 4 directly - on recovery, do the same computation in the background and write to the new disk - may take a while, have to scan data on all disks - what happen to write: - have to involve the parity disk - W(B2) - update B2 block - update P: P = newB2 XOR oldB2 XOR oldP (have to know old parity) - After failure of D2, what happen when writing to B2?</description>
+    </item>
+    
+    <item>
+      <title>DB Impl Lecture 1</title>
+      <link>https://example.org/post/dbl1/</link>
+      <pubDate>Thu, 25 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/post/dbl1/</guid>
+      <description>Lecture 1  Consistency
+ integrity constraints &amp;ndash; don&amp;rsquo;t let transactions commit concurrency  conflicting writes locks critical sections semaphores mutexes  concurrency control protocols  make sure half-completed transactions/money loss won&amp;rsquo;t happen   atomicity
+ either success or all abort  Isolation
+ Durability &amp;amp; fault-tolerance
+ machine goes down, if transactions are committed, on reboot the data written should be there save in ram / disk recovery disk failure network failure for distributed databases, leading to partitioning RAID &amp;ndash; have a redundant set of disks and being able to sub on replications to avoid natural disasters &amp;ndash; duplicated data centers roll back &amp;ndash; so have to do extra overhead to record before-values  Security &amp;amp; data integrity</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>https://example.org/about/</link>
+      <pubDate>Tue, 10 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/about/</guid>
+      <description>About this blog: Previously my tech blog was powered by Hexo, however the themes, updates and space for customization was limited. Recently I migrated this blog to Hugo, a fast and flexible static site generator built in Go, using the Nederburg theme that I found very appealing.
+This site is mainly for me to keep track of my learning progress towards various technologies with respect to computer science, as well as for recruiters/admission officers&amp;rsquo; reference to my skill set and accomplishments.</description>
+    </item>
+    
+    <item>
+      <title>Get in touch</title>
+      <link>https://example.org/contact/</link>
+      <pubDate>Sun, 06 Nov 2016 13:00:25 +0530</pubDate>
+      
+      <guid>https://example.org/contact/</guid>
+      <description>Please refer to my linkedin/github/email linked with icons down below for contact information.</description>
+    </item>
+    
+  </channel>
+</rss>

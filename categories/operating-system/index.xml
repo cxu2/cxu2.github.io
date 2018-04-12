@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Operating System on Victor&#39;s tech(?) blog</title>
+    <link>https://example.org/categories/operating-system/</link>
+    <description>Recent content in Operating System on Victor&#39;s tech(?) blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Mar 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://example.org/categories/operating-system/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Spin Locks</title>
+      <link>https://example.org/post/spin-locks/</link>
+      <pubDate>Thu, 02 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/post/spin-locks/</guid>
+      <description>Interrupts, Spin Locks and Preemption interrupts  Process context vs. interrupt context
+ system calls run in process context- can sleep Interrupt handlers run in interrupt context - cannot sleep Reason: when in interrupt context, there is no notion of the current process, so it does not save much info, so it is difficult to come back if gets put to the wait queue and switched to some other process corollary: if you are in interrupt context, need to get out as quickly as possible  Interrupt handlers</description>
+    </item>
+    
+  </channel>
+</rss>
