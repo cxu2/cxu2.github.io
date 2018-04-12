@@ -3,65 +3,65 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://example.org/post/spin-locks/</loc>
+    <loc>https://cxu2.github.io/post/spin-locks/</loc>
     <lastmod>2017-03-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.org/post/redis_ch1/</loc>
+    <loc>https://cxu2.github.io/post/redis_ch1/</loc>
     <lastmod>2018-04-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.org/post/dbl3/</loc>
+    <loc>https://cxu2.github.io/post/dbl3/</loc>
     <lastmod>2018-02-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.org/post/dbl1/</loc>
+    <loc>https://cxu2.github.io/post/dbl1/</loc>
     <lastmod>2018-01-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.org/about/</loc>
+    <loc>https://cxu2.github.io/about/</loc>
     <lastmod>2018-04-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.org/contact/</loc>
+    <loc>https://cxu2.github.io/contact/</loc>
     <lastmod>2016-11-06T13:00:25+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://example.org/categories/</loc>
+    <loc>https://cxu2.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/categories/databases/</loc>
+    <loc>https://cxu2.github.io/categories/databases/</loc>
     <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/categories/operating-system/</loc>
+    <loc>https://cxu2.github.io/categories/operating-system/</loc>
     <lastmod>2017-03-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/post/</loc>
+    <loc>https://cxu2.github.io/post/</loc>
     <lastmod>2017-03-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/tags/</loc>
+    <loc>https://cxu2.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/</loc>
+    <loc>https://cxu2.github.io/</loc>
     <lastmod>2017-03-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

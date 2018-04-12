@@ -2,50 +2,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Victor&#39;s tech(?) blog</title>
-    <link>https://example.org/post/</link>
+    <link>https://cxu2.github.io/post/</link>
     <description>Recent content in Posts on Victor&#39;s tech(?) blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 02 Mar 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://example.org/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://cxu2.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Spin Locks</title>
-      <link>https://example.org/post/spin-locks/</link>
+      <link>https://cxu2.github.io/post/spin-locks/</link>
       <pubDate>Thu, 02 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://example.org/post/spin-locks/</guid>
+      <guid>https://cxu2.github.io/post/spin-locks/</guid>
       <description>Interrupts, Spin Locks and Preemption interrupts  Process context vs. interrupt context
  system calls run in process context- can sleep Interrupt handlers run in interrupt context - cannot sleep Reason: when in interrupt context, there is no notion of the current process, so it does not save much info, so it is difficult to come back if gets put to the wait queue and switched to some other process corollary: if you are in interrupt context, need to get out as quickly as possible  Interrupt handlers</description>
     </item>
     
     <item>
       <title>Redis Intro</title>
-      <link>https://example.org/post/redis_ch1/</link>
+      <link>https://cxu2.github.io/post/redis_ch1/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://example.org/post/redis_ch1/</guid>
+      <guid>https://cxu2.github.io/post/redis_ch1/</guid>
       <description>Redis Chapter 1 Intro Features  like Memcached but supports the writing of its data on disk automatically in two different ways can store data in four structures in addition to plain string keys as Memcached does. Supports in-memory persistent storage on disk, replication to scale read performance, and client-side sharding to scale write performance.  Sharding is a method by which you partition your data into different pieces. In this case, you partition your data based on IDs embedded in the keys, based on the hash of keys, or some combination of the two.</description>
     </item>
     
     <item>
       <title>Database Implementation Lecture3 Notes</title>
-      <link>https://example.org/post/dbl3/</link>
+      <link>https://cxu2.github.io/post/dbl3/</link>
       <pubDate>Sun, 04 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://example.org/post/dbl3/</guid>
+      <guid>https://cxu2.github.io/post/dbl3/</guid>
       <description>Lecture 3 parity disk: - def of parity bit - detect bit flip, number of bits that are corrupted - eg. 4 data blocks and a parity block
 B1 B2 B3 B4 P, each on different disks D1 D2 D3 D4 D5 - how to calculate the parity block? - P = B1 XOR B2 XOR B3 XOR B4 - Read: - if B2 becomes unavailable: - read(B2) becomes read(B1)(B2)(B3)(P) - B2 = P XOR B1 XOR B3 XOR B4 - read factored by 4 since now to read B2 has to read 4 blocks instead of read 4 directly - on recovery, do the same computation in the background and write to the new disk - may take a while, have to scan data on all disks - what happen to write: - have to involve the parity disk - W(B2) - update B2 block - update P: P = newB2 XOR oldB2 XOR oldP (have to know old parity) - After failure of D2, what happen when writing to B2?</description>
     </item>
     
     <item>
       <title>DB Impl Lecture 1</title>
-      <link>https://example.org/post/dbl1/</link>
+      <link>https://cxu2.github.io/post/dbl1/</link>
       <pubDate>Thu, 25 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://example.org/post/dbl1/</guid>
+      <guid>https://cxu2.github.io/post/dbl1/</guid>
       <description>Lecture 1  Consistency
  integrity constraints &amp;ndash; don&amp;rsquo;t let transactions commit concurrency  conflicting writes locks critical sections semaphores mutexes  concurrency control protocols  make sure half-completed transactions/money loss won&amp;rsquo;t happen   atomicity
  either success or all abort  Isolation
