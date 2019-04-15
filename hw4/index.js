@@ -8,13 +8,13 @@ const HOSTED_URLS = {
 
 const examples = {
   'example1':
-      'Alice was beginning to get very tired of sitting by her sister on the bank.',
+      'O worthyest Cousin , The sinne of my Ingratitude euen now Was heauie on me .',
   'example2':
-      'Buda-Pesth seems a wonderful place.',
+      'He liked very much to have his friends come and see him ; and from various united causes , from his long residence at Hartfield , and his good nature , from his fortune , his house , and his daughter , he could command the visits of his own little circle , in a great measure , as he liked .',
   'example3':
-      'Scepticism was as much the result of knowledge, as knowledge is of scepticism.', 
+      'I almost think I can remember feeling a little different .', 
   'example4':
-      'So I kissed his hand, and lay quiet, while he proceeded to indite a note to Biddy, with my love in it.'
+      'for so the popular vote Inclines -- here to continue , and build up here A growing empire ; doubtless !'
 };
 
 function status(statusText) {
