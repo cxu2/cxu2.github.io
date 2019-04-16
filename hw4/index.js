@@ -8,13 +8,13 @@ const HOSTED_URLS = {
 
 const examples = {
   'example1':
-      'He did : and with an absolute Sir , not I The clowdy Messenger turnes me his backe , And hums ; as who should say , you  l rue the time That clogges me with this Answer',
+      'Enter Macbeth and Banquo .',
   'example2':
-      'He was invited to contribute any really good enigmas , charades , or conundrums that he might recollect ; and she had the pleasure of seeing him most intently at work with his recollections ; and at the same time , as she could perceive , most earnestly careful that nothing ungallant , nothing that did not breathe a compliment to the sex should pass his lips .',
+      'Every body was punctual , every body in their best looks : not a tear , and hardly a long face to be seen .',
   'example3':
-      'Alice did not much like keeping so close to her : first , because the Duchess was VERY ugly ; and secondly , because she was exactly the right height to rest her chin upon Alice  s shoulder , and it was an uncomfortably sharp chin .', 
+      'I wonder if I ' ve been changed in the night ?', 
   'example4':
-      'Thus far to try thee , Adam , I was pleased ; And find thee knowing , not of beasts alone , Which thou hast rightly named , but of thyself ; Expressing well the spirit within thee free , My image , not imparted to the brute ; Whose fellowship therefore unmeet for thee Good reason was thou freely shouldst dislike ; And be so minded still : I , ere thou spakest , Knew it not good for Man to be alone ; And no such company as then thou sawest Intended thee ; for trial only brought , To see how thou couldest judge of fit and meet : What next I bring shall please thee , be assured , Thy likeness , thy fit help , thy other self , Thy wish exactly to thy heart  s desire .'
+      'Space may produce new Worlds ; whereof so rife There went a fame in Heaven that he ere long Intended to create , and therein plant A generation whom his choice regard Should favour equal to the Sons of Heaven .'
 };
 
 function status(statusText) {
