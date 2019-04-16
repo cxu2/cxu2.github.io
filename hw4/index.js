@@ -8,13 +8,13 @@ const HOSTED_URLS = {
 
 const examples = {
   'example1':
-      'Alice was beginning to get very tired of sitting by her sister on the bank.',
+      'Enter Macbeth and Banquo .',
   'example2':
-      'Buda-Pesth seems a wonderful place.',
+      'Every body was punctual , every body in their best looks : not a tear , and hardly a long face to be seen .',
   'example3':
-      'Scepticism was as much the result of knowledge, as knowledge is of scepticism.',
+      'I wonder if I ve been changed in the night ?', 
   'example4':
-      'abcd'
+      'Space may produce new Worlds ; whereof so rife There went a fame in Heaven that he ere long Intended to create , and therein plant A generation whom his choice regard Should favour equal to the Sons of Heaven .'
 };
 
 function status(statusText) {
