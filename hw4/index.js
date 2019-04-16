@@ -8,13 +8,13 @@ const HOSTED_URLS = {
 
 const examples = {
   'example1':
-      'O worthyest Cousin , The sinne of my Ingratitude euen now Was heauie on me .',
+      'He did : and with an absolute Sir , not I The clowdy Messenger turnes me his backe , And hums ; as who should say , you ' l rue the time That clogges me with this Answer',
   'example2':
-      'He liked very much to have his friends come and see him ; and from various united causes , from his long residence at Hartfield , and his good nature , from his fortune , his house , and his daughter , he could command the visits of his own little circle , in a great measure , as he liked .',
+      'He was invited to contribute any really good enigmas , charades , or conundrums that he might recollect ; and she had the pleasure of seeing him most intently at work with his recollections ; and at the same time , as she could perceive , most earnestly careful that nothing ungallant , nothing that did not breathe a compliment to the sex should pass his lips .',
   'example3':
-      'I almost think I can remember feeling a little different .', 
+      'Alice did not much like keeping so close to her : first , because the Duchess was VERY ugly ; and secondly , because she was exactly the right height to rest her chin upon Alice ' s shoulder , and it was an uncomfortably sharp chin .', 
   'example4':
-      'for so the popular vote Inclines -- here to continue , and build up here A growing empire ; doubtless !'
+      'Thus far to try thee , Adam , I was pleased ; And find thee knowing , not of beasts alone , Which thou hast rightly named , but of thyself ; Expressing well the spirit within thee free , My image , not imparted to the brute ; Whose fellowship therefore unmeet for thee Good reason was thou freely shouldst dislike ; And be so minded still : I , ere thou spakest , Knew it not good for Man to be alone ; And no such company as then thou sawest Intended thee ; for trial only brought , To see how thou couldest judge of fit and meet : What next I bring shall please thee , be assured , Thy likeness , thy fit help , thy other self , Thy wish exactly to thy heart ' s desire .'
 };
 
 function status(statusText) {
